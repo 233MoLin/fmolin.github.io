@@ -1,0 +1,70 @@
+/* header */
+.header
+{
+    margin: 0 auto;
+    height: 60px;
+    background-color: #fff;
+    border-left: 1px solid #666666;
+    border-right: 1px solid #666666;
+}
+.header p
+{
+    float: left;
+    margin:10px 30px 10px 20px;
+    font-size:30px;
+    color:cyan;
+}
+.header ul li
+{
+    float: left;
+    position: relative;
+    bottom:20px;
+    margin:20px 0px 0px 35px;
+    padding-bottom: 16px;
+    height: 60px;
+    line-height:60px;
+    font-size:20px;
+}
+.header ul li:hover
+{
+    border-bottom:2px solid blue;
+}
+.header ul li a:hover
+{
+    color:red;
+}
+body
+{
+    background-image: url("../img/background-color.png");
+}
+.bodyarticle
+{
+    margin: 40px auto;
+    width: 1050px;
+    border: 2px solid #B3E5FF;
+    border-radius: 10px;
+    background-image: url("../img/background-color-article.png");
+    /* 设置背景图不多张图片且自适应宽高 */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bodyarticle .text
+{
+    margin: 0 auto;
+    width: 1050px;
+}
+.bodyarticle .title
+{
+    margin: 0 auto;
+    text-align: center;
+    right: 240px;
+    margin-bottom:10px;
+}
+.bodyarticle .information
+{
+    text-align: center;
+}
+.bodyarticle div , .bodyarticle p
+{
+    margin-left: 25px;
+}
