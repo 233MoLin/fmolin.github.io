@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* 内减模式 */
+    box-sizing: border-box;
+}
+/* 版心 */
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 去下划线 */
+a
+{
+    cursor: pointer;
+    text-decoration: none;
+    color:skyblue;
+}
+/* 去符号 */
+li
+{
+    list-style: none;
+}
+/* 内塌陷与清除浮动问题解决 */
+.clearfix:before, .clearfix:after
+{
+    content: " ";
+}
+.clearfix:after
+{
+    clear: both;
+}
+body
+{
+    background-color: #fff;
+    height: 6500px;
+}
+h2
+{
+    font-size: 60px;
+    color:#63BE1E;
+}
+h3
+{
+    height: 50px;
+    margin-bottom: 10px;
+}
+p
+{
+    font-size: 20px;
+}
+h3 div
+{
+    border-radius: 10px;
+    width: 10px;
+    height: 35px;
+    background-color: #FF5E23;
+}
+h3 p
+{
+    position:relative;
+    left:25px;
+    bottom: 42px;
+    font-size: 35px;
+    color:#1939B7;
+}
+h4
+{
+    height: 25px;
+    margin-bottom: 40px;
+}
+h4 div
+{
+    border-radius: 10px;
+    width: 8px;
+    height: 30px;
+    background-color: #FFF275;
+}
+h4 p
+{
+    position:relative;
+    left:20px;
+    bottom: 37px;
+    font-size: 30px;
+    color:#8FED8B;
+}
