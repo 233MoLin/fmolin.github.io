@@ -1,0 +1,94 @@
+/* header */
+.header
+{
+    margin: 0 auto;
+    height: 60px;
+    background-color: #fff;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.25);
+}
+.header a
+{
+    color: #000;
+}
+.header .selected
+{
+    color:#84A9FF;
+}
+.header .logo img
+{
+    float: left;
+    margin:5px 30px 5px 70px;
+    width: 50px;
+    height: 50px;
+}
+.header ul li
+{
+    float: left;
+    position: relative;
+    bottom:20px;
+    margin:20px 0px 0px 35px;
+    padding-bottom: 16px;
+    height: 60px;
+    line-height:60px;
+    font-size:15px;
+}
+.header ul li:hover
+{
+    border-bottom:2px solid blue;
+}
+.header ul li a
+{
+    transition: all 1s;
+}
+.header ul li a:hover
+{
+    color:#84A9FF;
+}
+/* body
+{
+    background-image: url("../img/background-color.png");
+} */
+.bodyarticle
+{
+    position: relative;
+    margin: 40px auto;
+    overflow: hidden;
+    width: 1050px;
+    height: 90px;
+    transition: all 3s;
+    border: 2px solid #B3E5FF;
+    border-radius: 10px;
+    background-image: url("../img/background-color.png");
+    /* 设置背景图不多张图片且自适应宽高 */
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.25);
+}
+.bodyarticle:hover
+{
+    height: 6000px;
+}
+.bodyarticle .text
+{
+    margin: 0 auto;
+    width: 1050px;
+}
+.bodyarticle .title
+{
+    margin: 0 auto;
+    text-align: center;
+    right: 240px;
+    margin-bottom:10px;
+}
+.bodyarticle .information
+{
+    text-align: center;
+}
+.bodyarticle h3 div , .bodyarticle h4 , .bodyarticle p
+{
+    margin-left: 25px;
+}
+.bodyarticle .text .tab
+{
+    margin-left: 60px;
+}
