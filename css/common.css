@@ -1,18 +1,29 @@
+body
+{
+    position: relative;
+}
 /* header */
 .header
 {
     margin: 0 auto;
     height: 60px;
     background-color: #fff;
-    border-left: 1px solid #666666;
-    border-right: 1px solid #666666;
+    box-shadow:5px 5px 10px rgba(0,0,0,0.25);
 }
-.header p
+.header a
+{
+    color: #000;
+}
+.header .selected
+{
+    color:#84A9FF;
+}
+.header .logo img
 {
     float: left;
-    margin:10px 30px 10px 20px;
-    font-size:30px;
-    color:cyan;
+    margin:5px 30px 5px 70px;
+    width: 50px;
+    height: 50px;
 }
 .header ul li
 {
@@ -23,7 +34,7 @@
     padding-bottom: 16px;
     height: 60px;
     line-height:60px;
-    font-size:20px;
+    font-size:15px;
 }
 .header ul li:hover
 {
@@ -35,11 +46,55 @@
 }
 .header ul li a:hover
 {
-    color: yellow;
+    color:#84A9FF;
 }
-body
+/* 左侧导航 */
+.leftnav
 {
-    background-image: url("../img/background-color.png");
+    position: fixed;
+    left: 25px;
+    top: 100px;
+    width: 50px;
+    height: 400px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+    border-radius: 30px;
+    background-color: #ACEC63;
+}
+.leftnav ul li
+{
+    margin: 30px auto;
+    transition: all 1s;
+    width: 42px;
+    height: 42px;
+    background-image: url("../img/sprite.png");
+    background-size: 340%;
+    border-radius: 50%;
+}
+.leftnav ul li a
+{
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+}
+.leftnav ul li:hover
+{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
+}
+.leftnav ul li:nth-child(2)
+{
+    background-position: -42px 0px;
+}
+.leftnav ul li:nth-child(3)
+{
+    background-position: -82px 0px;
+}
+.leftnav ul li:nth-child(4)
+{
+    background-position: 0px -42px;
+}
+.leftnav ul li:nth-child(5)
+{
+    background-position: -42px -40px;
 }
 .bodyarticle
 {
@@ -48,17 +103,18 @@ body
     overflow: hidden;
     width: 1050px;
     height: 90px;
-    transition: all 2s;
+    transition: all 3s;
     border: 2px solid #B3E5FF;
     border-radius: 10px;
-    background-image: url("../img/background-color-article.png");
+    background-image: url("../img/background-color.png");
     /* 设置背景图不多张图片且自适应宽高 */
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.25);
 }
 .bodyarticle:hover
 {
-    height: 4000px;
+    height: 6000px;
 }
 .bodyarticle .text
 {
@@ -76,7 +132,7 @@ body
 {
     text-align: center;
 }
-.bodyarticle h3 div , .bodyarticle p
+.bodyarticle h3 div , .bodyarticle h4 , .bodyarticle p
 {
     margin-left: 25px;
 }
