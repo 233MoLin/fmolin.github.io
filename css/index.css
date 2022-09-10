@@ -1,0 +1,9 @@
+.bodyarticle
+{
+    position: relative;
+}
+.bodyarticle .logo h1
+{
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
