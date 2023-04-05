@@ -1,0 +1,24 @@
+.bodyarticle .sorting select
+{
+    width: 1045px;
+    height: 30px;
+    border-radius: 5%;
+}
+.body ul li
+{
+    width: 1050px;
+    height: 120px;
+    margin-top: 20px;
+    border-bottom: 3px solid #ccc;
+}
+.body ul li a .article-title
+{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.body ul li .body-information , .body ul li .date
+{
+    margin-left: 20px;
+    color: #646c64;
+}

@@ -14,7 +14,7 @@ a
 {
     cursor: pointer;
     text-decoration: none;
-    color:#84A9FF;
+    color: #ABFFFD;
 }
 /* 去符号 */
 li
@@ -33,7 +33,7 @@ li
 body
 {
     background-color: #fff;
-    height: 6500px;
+    /* 这里不设置body高度，让body高度随内容变化 */
 }
 h2
 {

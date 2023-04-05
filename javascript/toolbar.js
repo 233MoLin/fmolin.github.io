@@ -8,12 +8,20 @@ toolbar_backgroundColor.onclick = function()
     if (bgc == "white")
     {
         bgc = "skyblue";
-        this.style.backgroundColor = "white";
+        this.style.backgroundColor = "pink";
         this.style.color = "skyblue";
-        this.innerText = "W";
+        this.innerText = "P";
         body.style.backgroundColor = "skyblue";
     }
-    else
+    else if (bgc == "skyblue")
+    {
+        bgc = "pink";
+        this.style.backgroundColor = "white";
+        this.style.color = "rgba(255,0,0,0.1)";
+        this.innerText = "W";
+        body.style.backgroundColor = "rgba(255,0,0,0.1)";
+    }
+    else if (bgc == "pink")
     {
         bgc = "white";
         this.style.backgroundColor = "skyblue";
